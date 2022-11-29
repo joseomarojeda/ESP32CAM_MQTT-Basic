@@ -24,8 +24,8 @@ const char* ssid = "Totalplay-C6AA";  // Aquí debes poner el nombre de tu red
 const char* password = "C6AA0018G2Jb5XFA";  // Aquí debes poner la contraseña de tu red
 
 //Datos del broker MQTT
-const char* mqtt_server = "192.168.87.67"; // Si estas en una red local, coloca la IP asignada, en caso contrario, coloca la IP publica
-IPAddress server(192,168,15,33);
+const char* mqtt_server = "92.168.100.7"; // Si estas en una red local, coloca la IP asignada, en caso contrario, coloca la IP publica
+IPAddress server(192,168,100,7);
 
 // Objetos
 WiFiClient espClient; // Este objeto maneja los datos de conexion WiFi
